@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudstudy-user" />
+        <module name="cloudstudy-service" />
+        <module name="cloudstudy-aliyunVod" />
+        <module name="cloudstudy-cms" />
+        <module name="cloudstudy-exception" />
+        <module name="cloudstudy-auth" />
+        <module name="cloudstudy-common" />
+        <module name="cloudstudy-order" />
+        <module name="cloudstudy-sentinel" />
+        <module name="cloudstudy-gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloudstudy-aliyunVod" options="-parameters" />
+      <module name="cloudstudy-auth" options="-parameters" />
+      <module name="cloudstudy-cms" options="-parameters" />
+      <module name="cloudstudy-common" options="-parameters" />
+      <module name="cloudstudy-exception" options="-parameters" />
+      <module name="cloudstudy-gateway" options="-parameters" />
+      <module name="cloudstudy-order" options="-parameters" />
+      <module name="cloudstudy-sentinel" options="-parameters" />
+      <module name="cloudstudy-service" options="-parameters" />
+      <module name="cloudstudy-user" options="-parameters" />
+    </option>
+  </component>
+</project>
